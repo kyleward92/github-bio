@@ -1,49 +1,81 @@
-h1 {
-    margin-bottom: 15px;
-    font-size: 60px;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-   
-    background-color: black;
-  }
-  
-  h2 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    text-align: center;
-  }
- 
-  
-  h3 {
-    margin-top: 15px;
-    font-size: 30px;
-    text-align: center;
-    color: blue;
-  }
- 
-  
-  img {
-    /
-    margin-left: auto;
-    margin-right: auto;
-  
-    display: block;
-  }
-  
-  
-  p {
-    background-color: blue;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-  }
 
-  ul {
-    text-align: center;
-    font-size: 35px;
-    border-style: solid;
-    border-width: 5px;
-    list-style-position: inside;
+h6 {
+  text-indent: 4px;
+  line-height: normal;
+}
+
+h4 {
+  text-indent: 4px;
+}
+
+img {
+  border-style: none;
+  width: 30%;
+  margin-left: auto;
+  margin-top: 4px;
+}
+
+.container {
+   animation: transitionIn 0.75s;
+   /* -webkit-animation: scale 0.75s; */
+   text-align: center;
+   padding: 0px;
+}
+.containerBio {
+  animation: transitionIn 0.75s;
+  /* -webkit-animation: scale 0.75s; */
+  text-align: Left;
+  padding: 0px;
+  width: 90%;
+  margin-left: auto;
+}  
+.container2 {
+  animation: transitionIn 0.75s;
+  /* -webkit-animation: scale 0.75s; */
+  text-align: Left;
+  padding: 0px;
+  width: 90%;
+  margin-left: auto;
+  /* box-shadow: 0px 0px 20px #00000010 */
+}
+
+#bioPic {
+   width: 150px;
+   margin-top: 100px;
+   margin-left: auto;
+}
+
+#bioText {
+  
+  font-weight:bolder;
+   width: 80%;
+
+}
+.align {
+   float: left;
+   
+}
+
+
+@keyframes transitionIn {
+   from {
+       opacity: 0;
+       transform: rotateX(-10deg);
+       transform: translateY(-10px);
+   }
+   to {
+       opacity: 1;
+       transform: rotateX(0);
+       transform: translateY(0);
+   }
+}
+
+
+@-webkit-keyframes scale { /* Safari and Chrome */
+  from {
+      width:300px;
   }
+  to {
+      width:400px;
+  }
+}

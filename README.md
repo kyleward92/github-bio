@@ -1,6 +1,6 @@
 # Github-Bio
 ## Creative Portfolio Using CSS, Bootstrap, HTML5
-[Deployed-App](https://kyleward92.github.io/github-bio/)
+[Deployed-App](https://github.com/kyleward92/github-bio.git)
 ![Github-Bio overview](https://user-images.githubusercontent.com/70237338/105764656-3c001880-5f25-11eb-9090-50a11e62a271.PNG)
 
 ## Description of the project
